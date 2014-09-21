@@ -1,13 +1,13 @@
 
-CodeBook
+#CodeBook
 This is a code book that describes the variables, the data, and  transformations performed to clean up the data.
 
-The data source
+##The data source
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Data Set Information
+##Data Set Information
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities 
 (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
@@ -21,7 +21,7 @@ separated using a Butterworth low-pass filter into body acceleration and gravity
 components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables 
 from the time and frequency domain.
 
-The data
+##The data
 
 The dataset includes the following files:
 
@@ -53,7 +53,7 @@ row shows a 128 element vector. The same description applies for the 'total_acc_
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are 
 radians/second.
 
-Transformation and Processing details
+##Transformation and Processing details
 
 - Load activity labels: activity_labels.txt file from "UCI HAR Dataset" Directory
 
