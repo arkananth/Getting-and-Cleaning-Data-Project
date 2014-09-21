@@ -1,8 +1,8 @@
 
-#CodeBook
-This is a code book that describes the variables, the data, and  transformations performed to clean up the data.
 
-##The data source
+###This code book describes the variables, the data, and  transformations performed to clean up the data.
+
+##Data source
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -21,7 +21,7 @@ separated using a Butterworth low-pass filter into body acceleration and gravity
 components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables 
 from the time and frequency domain.
 
-##The data
+##Data
 
 The dataset includes the following files:
 
